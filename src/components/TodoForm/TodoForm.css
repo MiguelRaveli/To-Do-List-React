@@ -1,0 +1,65 @@
+/* Todo form */
+.todo-form {
+  
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .todo-form input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .todo-form select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .todo-select option {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .todo-form h2{
+    
+    text-align: center;
+  }
+
+.divtodo-form h2{
+    border-top:  solid #222222;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+/* Generic button style */
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    background-color: #007bff; /* Blue */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  }
+  
+  .custom-button:hover {
+    background-color: #0056b3;
+  }
+
+  select{
+    width: 33%;
+  }
+  

@@ -1,0 +1,96 @@
+/* Reset some default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #141414;
+
+}
+
+/* Main container */
+.app {
+  display: flex;
+  
+  flex-direction: column;
+  max-width: 600px;
+  margin: 5% auto;
+  background-color: #3f3f3f;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Todo list container */
+.todo-list {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+/* Individual todo item */
+.todo {
+  position: relative;
+  background-color: #222222;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.todo:hover {
+  background-color: #333333;
+}
+
+/* Buttons for complete and delete */
+.todo-buttons {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.complete-button,
+.delete-button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.complete-button {
+  background-color: #5cb85c; /* Green */
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.complete-button:hover {
+  background-color: #449d44;
+}
+
+.delete-button {
+  background-color: #d9534f; /* Red */
+  color: #ffffff;
+}
+
+.delete-button:hover {
+  background-color: #c9302c;
+}
+
+
+input, select {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+
+.app h1{
+  text-align: center;
+}
+
+.todo{
+  border-top:  solid #1f1f1f;
+  margin-top: 10px;
+}
