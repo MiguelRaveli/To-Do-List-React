@@ -32,8 +32,6 @@ Bem-vindo à **Lista de Tarefas**! Este é um site que permite a você gerenciar
 
 Este projeto é de código aberto e aceita contribuições. Se você tiver ideias para melhorar a funcionalidade ou a interface do usuário, sinta-se à vontade para criar um pull request.
 
-## Licença
-
 ## Contato
 
 Se você tiver alguma dúvida, sugestão ou problema, não hesite em entrar em contato conosco em [miguelraveli123@email.com].
