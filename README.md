@@ -34,6 +34,6 @@ Este projeto é de código aberto e aceita contribuições. Se você tiver ideia
 
 ## Contato
 
-Se você tiver alguma dúvida, sugestão ou problema, não hesite em entrar em contato conosco em [miguelraveli123@email.com].
+Se você tiver alguma dúvida, sugestão ou problema, não hesite em entrar em contato conosco em [miguelraveli123@gmail.com].
 
 Gerencie suas tarefas de forma eficaz com a Lista de Tarefas!
