@@ -1,4 +1,8 @@
 /* Search bar container */
+
+.search{
+  border-top: .5px solid #222222;
+}
 .search-container {
     display: flex;
     align-items: center;

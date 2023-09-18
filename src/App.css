@@ -1,23 +1,27 @@
 /* Reset some default styles */
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   background-color: #141414;
-
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 /* Main container */
 .app {
   display: flex;
-  
   flex-direction: column;
-  max-width: 600px;
+  width: 600px;
   margin: 5% auto;
   background-color: #3f3f3f;
   color: #ffffff;
   font-family: Arial, sans-serif;
   padding: 20px;
   border-radius: 10px;
+
 }
 
 /* Todo list container */
@@ -79,18 +83,31 @@ body, html {
   background-color: #c9302c;
 }
 
-
-input, select {
+input,
+select {
   box-sizing: border-box;
   width: 100%;
 }
 
-
-.app h1{
+.app h1 {
   text-align: center;
 }
 
-.todo{
-  border-top:  solid #1f1f1f;
+.todo {
+  border-top: .5px solid #222222;
   margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: 5% auto;
+    background-color: #3f3f3f;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+  }
 }
